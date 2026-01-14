@@ -1,5 +1,7 @@
 import ig_logo from "../../assets/instagram_logo.png"
 import li_logo from "../../assets/linkedin_logo.png"
+import phone_logo from "../../assets/phone_logo.png"
+import email_logo from "../../assets/email_logo.png"
 
 import "./footer.css"
 
@@ -14,8 +16,8 @@ function Footer() {
                     </div>
                     <div className="footer-desktop-section-indiv">
                         <h1>Get in touch</h1>
-                        <p>✉︎ hasanilongwork@gmail.com</p>
-                        <p>☎ 347-383-7215</p>
+                        <div><img src={email_logo} alt="phone logo"/> hasanilongwork@gmail.com</div>
+                        <div><img src={phone_logo} alt="phone logo"/> 347-383-7215</div>
                     </div>
                     <div className="footer-desktop-section-indiv">
                         <h1>Connect</h1>
@@ -40,8 +42,8 @@ function Footer() {
                     <div className="footer-mobile-section-content">
                         <div className="footer-mobile-section-content-indiv">
                             <h1>Get in touch</h1>
-                            <p>✉︎ hasanilongwork@gmail.com</p>
-                            <p>☎ 347-383-7215</p>
+                            <div><img src={email_logo} alt="phone logo"/> hasanilongwork@gmail.com</div>
+                            <div><img src={phone_logo} alt="phone logo"/> 347-383-7215</div>
                         </div>
                         {/* <div className="footer-mobile-section-indiv">
                             <h1>Office</h1>
