@@ -1,0 +1,42 @@
+.header {
+    background-color: #FDFCF9;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 3%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+    height: 100%;
+}
+
+.header-menu-item {
+    height: 50%;
+    width: auto;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    aspect-ratio: 1.75; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 1.8vh;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header-menu-itemactive {
+    color: #FDFCF9;
+    background-color: #C51B16;
+}

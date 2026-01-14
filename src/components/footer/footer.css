@@ -1,0 +1,134 @@
+.wrapper {
+    width: 100%;
+}
+
+.footer-desktop {
+    width: 90%;
+    height: 36vh;
+    padding: 5vh 5%;
+    background-color: #0E100D;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.footer-desktop-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-desktop-section-indiv {
+    width: 28%;
+}
+
+.footer-desktop-section-indiv>h1 {
+    color: #3f3f3f;
+    font-size: 3.5vh;
+    margin: 0 0;
+    margin-bottom: 2vh;
+    user-select: none;
+}
+
+.footer-desktop-section-indiv>p {
+    font-size: 2vh;
+    color: #FDFCF9;
+    margin: 0 0;
+    margin-bottom: 1vh;
+    width: 70%;
+}
+
+.footer-desktop-section-indiv>a {
+    font-size: 2vh;
+    color: #FDFCF9;
+    margin: 0 0;
+    margin-bottom: 1vh;
+    width: 70%;
+    display: block;
+}
+
+.footer-desktop-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    user-select: none;
+    margin-top: 15vh;
+    font-size: 0.5px;
+    color: #ccc;
+}
+
+.footer-desktop>p {
+    color: white;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 33.5vh;
+        padding: 6vh 5%;
+        background-color: #0E100D;
+        color: #FDFCF9;
+    }
+
+    .footer-mobile h1{
+        margin: 0;
+        font-size: 2.5vh;
+        color: #3f3f3f;
+        margin-bottom: 1vh;
+    }
+
+    .footer-mobile p {
+        margin: 0;
+        font-size: 1.5vh;
+    }
+
+    .footer-mobile-section {
+        width: 100%;
+    }
+
+    .footer-mobile-section-header {
+        margin-bottom: 2vh;
+    }
+
+    .footer-mobile-section-header>p {
+        width: 70%;
+    }
+
+    .footer-mobile-section-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+    }
+
+    .footer-mobile-section-socials {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-mobile-section-socials>img {
+        height: 4vh;
+        margin: 0 3%;
+    }
+
+    .footer-mobile-divider {
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+        user-select: none;
+        margin-top: 5vh;
+        font-size: 0.5px;
+        color: #ccc;
+        margin-bottom: 2vh;
+    }
+}

@@ -1,0 +1,16 @@
+.home {
+    background-color: #FDFCF9;
+}
+
+.home-section-divider {
+    width: 96%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 3vh 2%;
+}
+
+@media (max-width: 1024px) {
+    .home-section-divider {
+        margin: 1.5vh 2%;
+    }
+}
