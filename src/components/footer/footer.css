@@ -139,6 +139,11 @@
         text-decoration: none;
     }
 
+    .footer-mobile-section-content-indiv>span {
+        font-size: 1.5vh;
+        text-decoration: none;
+    }
+
     .footer-mobile-section-content-indiv>div>img {
         height: 13px;
         margin-right: 8px;

@@ -42,8 +42,14 @@ function Footer() {
                     <div className="footer-mobile-section-content">
                         <div className="footer-mobile-section-content-indiv">
                             <h1>Get in touch</h1>
-                            <div><img src={email_logo} alt="phone logo"/> hasanilongwork@gmail.com</div>
-                            <div><img src={phone_logo} alt="phone logo"/> 347-383-7215</div>
+                            <div>
+                                <img src={email_logo} alt="phone logo"/>
+                                <span>hasanilongwork@gmail.com</span>
+                            </div>
+                            <div>
+                                <img src={phone_logo} alt="phone logo"/>
+                                <span>347-383-7215</span>
+                            </div>
                         </div>
                         {/* <div className="footer-mobile-section-indiv">
                             <h1>Office</h1>
