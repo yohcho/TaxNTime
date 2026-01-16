@@ -116,7 +116,8 @@
 @media (max-width: 474px)  {
     .home-section5 {
         width: 95% !important;
-        margin: 0 2.5% !important; 
+        margin: 0 2.5% !important;
+        margin-bottom: 4vh !important;
     }
 
     .home-section5-calendly {
