@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TaxNTime/static/css/main.fb33502f.css",
+    "main.js": "/TaxNTime/static/js/main.10df14f3.js",
+    "static/media/headshot.jpeg": "/TaxNTime/static/media/headshot.eafdc00707c22e00045f.jpeg",
+    "static/media/logo.png": "/TaxNTime/static/media/logo.1e6b3344301e308b5d7a.png",
+    "static/media/img2.JPEG": "/TaxNTime/static/media/img2.1f48c5d778b71153543f.JPEG",
+    "static/media/instagram_logo.png": "/TaxNTime/static/media/instagram_logo.a07ba06158ce6db0a23e.png",
+    "static/media/construction_logo.png": "/TaxNTime/static/media/construction_logo.3674566fe1271fd0e34c.png",
+    "static/media/tax_logo.png": "/TaxNTime/static/media/tax_logo.58b3177826de9504801d.png",
+    "index.html": "/TaxNTime/index.html",
+    "main.fb33502f.css.map": "/TaxNTime/static/css/main.fb33502f.css.map",
+    "main.10df14f3.js.map": "/TaxNTime/static/js/main.10df14f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb33502f.css",
+    "static/js/main.10df14f3.js"
+  ]
+}
